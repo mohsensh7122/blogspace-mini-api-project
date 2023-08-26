@@ -43,3 +43,13 @@
 .form input, .form textarea {
     margin: 10px 0px;
 }
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: inherit;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+

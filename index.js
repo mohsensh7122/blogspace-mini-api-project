@@ -1,5 +1,7 @@
 const postsEl = document.getElementById('posts');
 const postBtn = document.getElementById('post-btn');
+const formEl = document.querySelector('.form');
+console.log(formEl)
 
 let postsArray = [];
 
@@ -44,5 +46,6 @@ postBtn.addEventListener('click', function (e) {
         .then(post => {
             postsArray.unshift(post);
             renderPosts();
+            formEl.reset();
         })
 })
